@@ -4,7 +4,8 @@ const Categories = [
         title:"Men's black t-shirt",
         price:213,
         image:'../image/ryan-hoffman-Ft4p5E9HjTQ-unsplash.jpg',
-        category:'Men'
+        category:'Men',
+        subcategory:'Black'
     },
     {
         id:2,
@@ -24,7 +25,8 @@ const Categories = [
         title:"White t-shirt",
         price:470,
         image:'../image/haryo-setyadi-acn5ERAeSb4-unsplash.jpg',
-        category:'Men'
+        category:'Men',
+        subcategory:'White'
     },{
         id:5,
         title:"Black shoes",
@@ -44,14 +46,16 @@ const Categories = [
         title:"White frock",
         price:500,
         image:'../image/senjuti-kundu-7uP2gFMB2ps-unsplash.jpg',
-        category:'White'
+        category:'White',
+        subcategory:'Children'
     },
     {
         id:8,
         title:"Women Saree",
         price:420,
         image:'../image/ananthu-ganesh-_04bQMBjEzM-unsplash.jpg',
-        category:'White'
+        category:'White',
+        subcategory: 'Women'
     },
     {
         id:9,
@@ -64,7 +68,8 @@ const Categories = [
         title:"Men's partywear",
         price:2999,
         image:'../image/gelmis-bartulis-DdeqNYIQ0kg-unsplash.jpg',
-        category:'White'
+        category:'White',
+        subcategory:'Men'
     },
     {
         id:11,
@@ -77,7 +82,9 @@ const Categories = [
         title:"Tshirts",
         price:999,
         image:'../image/md-salman-tWOz2_EK5EQ-unsplash.jpg',
-        category:'Men'
+        category:'Men',
+        subcategory:'White',
+        subcategory_1:'Black'
     },
     {
         id:13,
@@ -98,7 +105,8 @@ const Categories = [
         title:"Women's black outfit",
         price:2599,
         image:'../image/olga-zabegina-A3MleA0jtoE-unsplash.jpg',
-        category:'Black'
+        category:'Black',
+        subcategory: 'Women'
     }
 ]
 

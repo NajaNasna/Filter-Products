@@ -9,10 +9,12 @@ function Category() {
     const [data, setData] = useState(Categories);
     const filterResult = (catItem) => {
         const result = Categories.filter((curData) => {
-            return curData.category === catItem
+            return curData.category === catItem || curData.subcategory === catItem || curData.subcategory_1 === catItem;
         });
-        setData(result)
+    
+        setData(result);
     }
+    
 
 
     return (
@@ -51,7 +53,6 @@ function Category() {
                                                 </Card.Body>
                                             </Card>
                                         </div>
-
                                     </>
                                 )
                             })}
